@@ -177,7 +177,7 @@ padding-bottom: .5rem;
 .about .row .count-container{
     flex: 1 1 42rem;
     display: flex;
-    align-items: center;
+    
     flex-wrap:  wrap;
     gap: 2rem;
 }
@@ -191,7 +191,12 @@ padding-bottom: .5rem;
 }
 
 .about .row .count-container .box h3{
-    font-size:5rem;
+    font-size: 5rem;
     color: crimson;
+
+}
+.about .row .count-container .box h1{
+    font-size: 3rem;
+    color: hsla(84, 9%, 77%, 0.282);
 
 }
