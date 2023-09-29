@@ -155,7 +155,7 @@ padding-bottom: .5rem;
     font-size: 3rem;
     color:#fff;
     text-transform: uppercase;
-    padding: 1rem;
+    padding-bottom: 1rem;
       
 }
 .about .row .info-container .box-container .box{
@@ -174,23 +174,24 @@ padding-bottom: .5rem;
     color:#aaa;
     font-weight: lighter;
 }
-.about .row .count_container{
+.about .row .count-container{
     flex: 1 1 42rem;
     display: flex;
     align-items: center;
     flex-wrap:  wrap;
     gap: 2rem;
 }
-.about .row .count_container .box{
+.about .row .count-container .box{
 
     flex: 1 1 20rem;
     padding: 3rem 4rem;
     background: #1a1a1a;
     border-radius: .5rem;
-    box-shadow: 0 0.5rem 1 rem rgba(0,0,0,0,7);
+    box-shadow: 0 0.5rem 1 rem rgba(0,0,0,0.7);
 }
 
-.about .row .count_container .box  h3{
+.about .row .count-container .box h3{
     font-size:5rem;
+    color: crimson;
 
 }
