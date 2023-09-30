@@ -195,8 +195,14 @@ padding-bottom: .5rem;
     color: crimson;
 
 }
-.about .row .count-container .box h1{
-    font-size: 3rem;
-    color: hsla(84, 9%, 77%, 0.282);
-
+.about .row .count-container .box p{
+    font-size: 2rem;
+    color: #aaa;
 }
+
+.skills .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem));
+    gap: 1.5rem;
+}
+
